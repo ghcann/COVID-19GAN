@@ -7,17 +7,21 @@ COVID-19GAN is a StyleGAN2 generative advasarial network trained on the 'COVID-1
 
 The following requirements are derived from StyleGAN2 requirements. For more information visit: https://github.com/NVlabs/stylegan2. 
 
-Both Linux and Windows are supported. Linux is recommended for performance and compatibility reasons.
-64-bit Python 3.6 installation. We recommend Anaconda3 with numpy 1.14.3 or newer.
-TensorFlow 1.14 or 1.15 with GPU support. The code does not support TensorFlow 2.0.
+Both Linux and Windows are supported.
+Linux is recommended for performance and compatibility reasons.
+64-bit Python 3.6 installation. 
+Anaconda3 with numpy 1.14.3 or newer.
+TensorFlow 1.14 or 1.15 with GPU support. 
+The code does not support TensorFlow 2.0.
 On Windows, you need to use TensorFlow 1.14 — TensorFlow 1.15 will not work.
-One or more high-end NVIDIA GPUs, NVIDIA drivers, CUDA 10.0 toolkit and cuDNN 7.5. To reproduce the results reported in the paper, you need an NVIDIA GPU with at least 16 GB of DRAM.
-Docker users: use the provided Dockerfile to build an image with the required library dependencies.
+One or more high-end NVIDIA GPUs, NVIDIA drivers, CUDA 10.0 toolkit and cuDNN 7.5. 
+To reproduce the results reported in the paper StyleGAN2, you need an NVIDIA GPU with at least 16 GB of DRAM.
+Docker users: use the provided StyleGAN2 Dockerfile to build an image with the required library dependencies.
 
 # Dataset 
 
 # Contact
-George Cann, PhD researcher, Department of Space and Climate Physics (Mullard Space Science Laboratory), University College London. 
+George Cann, Department of Space and Climate Physics (Mullard Space Science Laboratory), University College London. 
 
 # Citation
 ```
@@ -69,4 +73,4 @@ https://github.com/NVlabs/stylegan2
 
 # Acknowledgements
 
-The author would like to thank NVidia Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila and Joseph Paul Cohen and Paul Morrison and Lan Daom. 
+The author would like to thank NVlabs, Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila and Joseph Paul Cohen and Paul Morrison and Lan Dao. 
