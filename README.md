@@ -30,7 +30,7 @@ Docker users: use the provided StyleGAN2 Dockerfile to build an image with the r
 
 The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. 4 datasets (epsilon, varepsilon, theta and vartheta) have been refined though manual filtering. The shown example of generated images has been trained on the refined varepsilon chest x-ray dataset. 
 
-![Teaser image](./images/COVID-19GAN_flow_diagram_updated.png)
+![Teaser image](./images/covid19gan_diagram.png)
 
 
 # Colab
