@@ -1,0 +1,1 @@
+COVID-19GAN datasets test folder
