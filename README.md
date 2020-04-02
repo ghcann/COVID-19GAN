@@ -89,5 +89,4 @@ https://github.com/NVlabs/stylegan2
 
 # Acknowledgements
 
-The author would like to thank NVlabs, Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila for providing StyleGan2 (https://github.com/NVlabs/stylegan2) and Joseph Paul Cohen and Paul Morrison and Lan Dao for providing the 'COVID-19 image data collection' dataset (https://github.com/ieee8023/
-covid-chestxray-dataset). 
+The author would like to thank NVlabs, Tero Karras, Samuli Laine, Miika Aittala, Janne Hellsten, Jaakko Lehtinen, Timo Aila for providing StyleGan2 (https://github.com/NVlabs/stylegan2) and Joseph Paul Cohen and Paul Morrison and Lan Dao for providing the 'COVID-19 image data collection' dataset (https://github.com/ieee8023/covid-chestxray-dataset). 
