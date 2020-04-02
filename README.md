@@ -7,7 +7,7 @@ COVID-19GAN is a StyleGAN2 generative adversarial  network trained on the 'COVID
 
 # Requirements
 
-The aim of this work is support easy access through Google Colab.  The notebook COVID-19GAN.ipynb in the COVID-19GAN_StyleGan2 folder provides access to COVID-19GAN. The following requirements are derived from StyleGAN2 requirements:  
+The aim of this work is to support easy access through Google Colab.  The notebook COVID-19GAN.ipynb in the COVID-19GAN_StyleGan2 folder provides access to COVID-19GAN. The following requirements are derived from StyleGAN2 requirements:  
 
 Both Linux and Windows are supported.
 Linux is recommended for performance and compatibility reasons.
