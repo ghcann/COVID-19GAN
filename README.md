@@ -28,10 +28,13 @@ Docker users: use the provided StyleGAN2 Dockerfile to build an image with the r
 
 ![Teaser image](./images/average_grid_clear_title.jpg)
 
-The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. Subsequently these 4 datasets have been refined though manual filtering. 
+The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. 4 datasets (epsilon, varepsilon, theta and vartheta) have been refined though manual filtering. 
+
+![Teaser image](./images/average_grid_clear_title.jpg)
+
 
 # Colab
-The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select Runtime, Change runtime type and set the Runtime type to Python 3 and the Hardware accelerator to GPU'. Then Run all. You may need to modify some paths.  
+The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select Runtime, Change runtime type and set the Runtime type to Python 3 and the Hardware accelerator to GPU. Then Run all. You may need to modify some paths.  
 
 # Contact
 George Cann, Department of Space and Climate Physics (Mullard Space Science Laboratory), University College London.
