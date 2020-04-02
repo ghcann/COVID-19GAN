@@ -26,7 +26,7 @@ Docker users: use the provided StyleGAN2 Dockerfile to build an image with the r
 
 'COVID-19 image data collection' from Cohen et al. (2020) have been cleaned for compatibility with StyleGAN2, see above image. All images have been converted to greyscale, cropped to chest and rescaled to 256x256, 512x512, 1024x1024 and 2048x2048. 
 
-![Teaser image](./average_grid_clear_title.jpg)
+![Teaser image](./images/average_grid_clear_title.jpg)
 
 The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. Subsequently these 4 datasets have been refined though manual filtering. 
 
