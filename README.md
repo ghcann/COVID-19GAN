@@ -51,6 +51,7 @@ https://github.com/ghcann/COVID-19GAN
 @article{cann_covid-19gan,
   title={COVID-19GAN},
   author={George Cann},
+  journal={arXiv TBC},
   url={https://github.com/ghcann/COVID-19GAN},
   year={2020}
 }
