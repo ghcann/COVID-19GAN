@@ -3,11 +3,11 @@ COVID-19 Generative Adversarial Network
 
 ![Teaser image](./images/COVID-19GAN_example.jpg)
 
-COVID-19GAN is a StyleGAN2 generative adversarial  network trained on the 'COVID-19 image data collection' Cohen et al. (2020). The goal of COVID-19GAN is to generate photorealistic images chest x-rays (see above) of 2019 Novel Coronavirus COVID-19 (2019-nCoV) patients from a modified dataset of the 'COVID-19 image data collection' images. The above example shows fake chest x-rays of Novel Coronavirus COVID-19 (2019-nCoV) patients in the varepsilon section, see the red annotated grid below for section nomenclature. 
+COVID-19GAN is a StyleGAN2 generative adversarial  network trained on the 'COVID-19 image data collection' Cohen et al. (2020). The goal of COVID-19GAN is to generate photorealistic images chest x-rays (see above) of 2019 Novel Coronavirus COVID-19 (2019-nCoV) patients from a modified dataset of 'COVID-19 image data collection' images. The above example shows fake chest x-rays of Novel Coronavirus COVID-19 (2019-nCoV) patients in the varepsilon section, see the red annotated grid below for section nomenclature. COVID-19 chest x-ray imagery is sparse, whilst the 'COVID-19 image data collection' is invaluable, it is a relatively small dataset. COVID-19GAN, through StyleGAN2, offers the possibility generating a very large synthetic database of COVID-19 (2019-nCoV) patient chest x-rays, which could be of use in tackling the global challenge of the COVID-19 pandemic.
 
 # Requirements
 
-The following requirements are derived from StyleGAN2 requirements. For more information visit: https://github.com/NVlabs/stylegan2. The notebook COVID-19GAN.ipynb in the COVID-19GAN_StyleGan2 folder provides access to COVID-19GAN. 
+The aim of this work is support easy access through Google Colab.  The notebook COVID-19GAN.ipynb in the COVID-19GAN_StyleGan2 folder provides access to COVID-19GAN. The following requirements are derived from StyleGAN2 requirements:  
 
 Both Linux and Windows are supported.
 Linux is recommended for performance and compatibility reasons.
@@ -19,6 +19,8 @@ On Windows, you need to use TensorFlow 1.14 — TensorFlow 1.15 will not work.
 One or more high-end NVIDIA GPUs, NVIDIA drivers, CUDA 10.0 toolkit and cuDNN 7.5. 
 To reproduce the results reported in the paper StyleGAN2, you need an NVIDIA GPU with at least 16 GB of DRAM.
 Docker users: use the provided StyleGAN2 Dockerfile to build an image with the required library dependencies.
+
+For more information visit: https://github.com/NVlabs/stylegan2.
 
 # Dataset 
 
