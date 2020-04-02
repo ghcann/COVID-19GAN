@@ -7,7 +7,7 @@ COVID-19GAN is a StyleGAN2 generative adversarial  network trained on the 'COVID
 
 # Requirements
 
-The following requirements are derived from StyleGAN2 requirements. For more information visit: https://github.com/NVlabs/stylegan2. The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN. 
+The following requirements are derived from StyleGAN2 requirements. For more information visit: https://github.com/NVlabs/stylegan2. The notebook COVID-19GAN.ipynb in the COVID-19GAN_StyleGan2 folder provides access to COVID-19GAN.
 
 Both Linux and Windows are supported.
 Linux is recommended for performance and compatibility reasons.
@@ -31,7 +31,7 @@ Docker users: use the provided StyleGAN2 Dockerfile to build an image with the r
 The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. Subsequently these 4 datasets have been refined though manual filtering. 
 
 # Colab
-The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select 'Runtime', 'Change runtime type' and set the 'Runtime' type to 'Python 3' and the 'Hardware accelerator' to 'GPU'. Then 'Run all'. You may need to modify some paths.  
+The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select Runtime, Change runtime type and set the Runtime type to Python 3 and the Hardware accelerator to GPU'. Then Run all. You may need to modify some paths.  
 
 # Contact
 George Cann, Department of Space and Climate Physics (Mullard Space Science Laboratory), University College London.
