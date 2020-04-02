@@ -22,7 +22,7 @@ Docker users: use the provided StyleGAN2 Dockerfile to build an image with the r
 
 # Dataset 
 
-![Teaser image](./images/centred_COVID-19 image_data_collection_grid1.png)
+![Teaser image](./images/centred_COVID-19_image_data_collection_grid1.jpg)
 
 'COVID-19 image data collection' from Cohen et al. (2020) have been cleaned for compatibility with StyleGAN2, see above image. All images have been converted to greyscale, cropped to chest and rescaled to 256x256, 512x512, 1024x1024 and 2048x2048. 
 
