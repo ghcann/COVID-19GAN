@@ -1,0 +1,1 @@
+# COVID-19GAN StyleGan2 test folder
