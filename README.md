@@ -1,9 +1,9 @@
 # COVID-19GAN
 COVID-19 Generative Adversarial Network 
 
-![Teaser image](./grid5.png)
+![Teaser image](./fakes000096.png)
 
-COVID-19GAN is a StyleGAN2 generative advasarial network trained on the 'COVID-19 image data collection' Cohen et al. (2020). The goal of COVID-19GAN is to generate photorealistic images chest x-rays of COVID-19 patients from a modified dataset of the 'COVID-19 image data collection' images. 
+COVID-19GAN is a StyleGAN2 generative advasarial network trained on the 'COVID-19 image data collection' Cohen et al. (2020). The goal of COVID-19GAN is to generate photorealistic images chest x-rays (see above) of COVID-19 patients from a modified dataset of the 'COVID-19 image data collection' images. 
 
 # Requirements
 
@@ -22,7 +22,9 @@ Docker users: use the provided StyleGAN2 Dockerfile to build an image with the r
 
 # Dataset 
 
-'COVID-19 image data collection' from Cohen et al. (2020) have been cleaned for compatibility with StyleGAN2. All images have been converted to greyscale, cropped to chest and rescaled to 256x256, 512x512, 1024x1024 and 2048x2048. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. The average 1024x1024 COVID-19 chest x-ray reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. Subsequently these 4 datasets have been refined though manual filtering.
+![Teaser image](./grid5.png)
+
+'COVID-19 image data collection' from Cohen et al. (2020) have been cleaned for compatibility with StyleGAN2, see above image. All images have been converted to greyscale, cropped to chest and rescaled to 256x256, 512x512, 1024x1024 and 2048x2048. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. The average 1024x1024 COVID-19 chest x-ray reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. Subsequently these 4 datasets have been refined though manual filtering.
 
 # Colab
 The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN. You may need to modify some paths for it to work. 
