@@ -1,7 +1,7 @@
 # COVID-19GAN
 COVID-19 Generative Adversarial Network 
 
-![Teaser image](./fakes000096.png)
+![Teaser image](./fakes000096.jpg)
 
 COVID-19GAN is a StyleGAN2 generative advasarial network trained on the 'COVID-19 image data collection' Cohen et al. (2020). The goal of COVID-19GAN is to generate photorealistic images chest x-rays (see above) of COVID-19 patients from a modified dataset of the 'COVID-19 image data collection' images. 
 
