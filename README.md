@@ -43,7 +43,10 @@ The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments eps
 
 
 # Colab
-The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select Runtime, Change runtime type and set the Runtime type to Python 3 and the Hardware accelerator to GPU. Then Run all. You may need to modify some paths, e.g.         self.tfrecord_dir       = './path' in dataset.py. 
+The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select Runtime, Change runtime type and set the Runtime type to Python 3 and the Hardware accelerator to GPU. Then Run all. 
+
+You may need to modify some paths, e.g:        
+self.tfrecord_dir       = './my_tfrecord_dir' in dataset.py. 
 
 # Contact
 George Cann, Department of Space and Climate Physics (Mullard Space Science Laboratory), University College London.
