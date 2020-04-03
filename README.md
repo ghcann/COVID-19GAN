@@ -2,7 +2,7 @@
 COVID-19 Generative Adversarial Network 
 
 1. COVID-19GAN fake 'COVID-19 image data collection' images. 
-![Teaser image](./images/COVID19GAN_full_set.jpg)
+![Teaser image](./images/COVIDGAN19_full_chest_xray_fakes.jpg)
 
 2. COVID-19GAN fake 'COVID-19 image data collection' images in varepsilon segment. 
 ![Teaser image](./images/COVID-19GAN_example.jpg)
@@ -45,7 +45,7 @@ The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments eps
 # Colab
 The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select Runtime, Change runtime type and set the Runtime type to Python 3 and the Hardware accelerator to GPU. Then Run all. 
 
-You may need to modify some paths, e.g:        
+You may need to modify some paths, e.g:  
 self.tfrecord_dir       = './my_tfrecord_dir' in dataset.py. 
 
 # Contact
