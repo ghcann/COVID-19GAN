@@ -2,7 +2,7 @@
 COVID-19 Generative Adversarial Network 
 
 1. COVID-19GAN grid of 480 256x256 pixel fake 'COVID-19 image data collection' images.
-![Teaser image](./images/COVIDGAN19_full_chest_xray_fakes.jpg)
+![Teaser image](./images/fakes000096.jpg)
 
 2. COVID-19GAN grid of 480 256x256 pixel fake 'COVID-19 image data collection' images in varepsilon segment. 
 ![Teaser image](./images/COVID-19GAN_example.jpg)
