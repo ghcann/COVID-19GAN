@@ -28,7 +28,7 @@ For more information visit: https://github.com/NVlabs/stylegan2.
 
 # Dataset 
 
-3. Real 'COVID-19 image data collection' from Cohen et al. (2020), centred, cropped and scaled. 
+3. Real 'COVID-19 image data collection' images from Cohen et al. (2020), centred, cropped and rescaled. 
 ![Teaser image](./images/centred_COVID-19_image_data_collection_grid1.jpg)
 
 'COVID-19 image data collection' from Cohen et al. (2020) have been cleaned for compatibility with StyleGAN2, see above image. All images have been converted to greyscale, cropped to chest and rescaled to 256x256, 512x512 and 1024x1024. 
