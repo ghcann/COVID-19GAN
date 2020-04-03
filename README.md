@@ -1,10 +1,10 @@
 # COVID-19GAN
 COVID-19 Generative Adversarial Network 
 
-1. COVID-19GAN fake 'COVID-19 image data collection' images. 
+1. COVID-19GAN grid of 480 256x256 pixel fake 'COVID-19 image data collection' images.
 ![Teaser image](./images/COVIDGAN19_full_chest_xray_fakes.jpg)
 
-2. COVID-19GAN fake 'COVID-19 image data collection' images in varepsilon segment. 
+2. COVID-19GAN grid of 480 256x256 pixel fake 'COVID-19 image data collection' images in varepsilon segment. 
 ![Teaser image](./images/COVID-19GAN_example.jpg)
 
 COVID-19GAN is a StyleGAN2 generative adversarial  network trained on the 'COVID-19 image data collection' Cohen et al. (2020). The goal of COVID-19GAN is to generate photorealistic images chest x-rays (see above) of 2019 Novel Coronavirus COVID-19 (2019-nCoV) patients from a modified dataset of 'COVID-19 image data collection' images. The above example shows fake chest x-rays of Novel Coronavirus COVID-19 (2019-nCoV) patients in the varepsilon section, see the red annotated grid below for section nomenclature. COVID-19 chest x-ray imagery is sparse, whilst the 'COVID-19 image data collection' is invaluable, it is a relatively small dataset. COVID-19GAN, through StyleGAN2, offers the possibility generating a very large synthetic database of COVID-19 (2019-nCoV) patient chest x-rays, which could be of use in tackling the global challenge of the COVID-19 pandemic.
