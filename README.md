@@ -28,14 +28,17 @@ For more information visit: https://github.com/NVlabs/stylegan2.
 
 # Dataset 
 
+3. Real 'COVID-19 image data collection' from Cohen et al. (2020), centred, cropped and scaled. 
 ![Teaser image](./images/centred_COVID-19_image_data_collection_grid1.jpg)
 
 'COVID-19 image data collection' from Cohen et al. (2020) have been cleaned for compatibility with StyleGAN2, see above image. All images have been converted to greyscale, cropped to chest and rescaled to 256x256, 512x512 and 1024x1024. 
 
+4. The average 1024x1024 COVID-19 chest x-ray segmented and annotated.
 ![Teaser image](./images/average_grid_clear_title.jpg)
 
 The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments epsilon, varepsilon, theta and vartheta offer the most promise for applying StyleGan2 to simulate artificial COVID-19 chest x-rays. The 1024x1024 dataset has been segmented into 16x256x256, titled alpha to xi. 4 datasets (epsilon, varepsilon, theta and vartheta) have been refined though manual filtering. The shown example of generated images has been trained on the refined varepsilon chest x-ray dataset. 
 
+5. COVID-19GAN flow diagram. 
 ![Teaser image](./images/covid19gan_diagram.png)
 
 
