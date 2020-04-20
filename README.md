@@ -41,12 +41,19 @@ The average 1024x1024 COVID-19 chest x-ray (see above) reveals that segments eps
 5. COVID-19GAN flow diagram. 
 ![Teaser image](./images/covid19gan_diagram.png)
 
-
 # Colab
 The following notebook COVID-19GAN.ipynb run on Colab provides access to the COVID-19GAN.  Download COVID-19GAN_StyleGan2, unzip and upload to Google Drive. Open COVID-19GAN.ipynb with Google Colab. Select Runtime, Change runtime type and set the Runtime type to Python 3 and the Hardware accelerator to GPU. Then Run all. 
 
 You may need to modify some paths, e.g:  
 self.tfrecord_dir       = './my_tfrecord_dir' in dataset.py. 
+
+# Pretrained model
+The most recent pretrained model for the 02_02_varepsilon_refined dataset can be found in the 00021-stylegan2-02_02_varepsilon_refined-1gpu-config-f folder in the shared Google Drive folder at the following: 
+https://drive.google.com/drive/folders/12fpNCADn3fn6P1gwRQ-9uE73bagWjOYq?usp=sharing
+
+The most recent pretrained model for the front_square_jpg_256_256_gray dataset can be found in the 00001-stylegan2-front_square_jpg_256_256_gray-1gpu-config-f folder in the shared Google Drive folder at the following:
+https://drive.google.com/drive/folders/15BY-ipiWWnvLDlAJSq3H6flo4YiSaeJ3?usp=sharing
+
 
 # Contact
 George Cann, Department of Space and Climate Physics (Mullard Space Science Laboratory), University College London.
